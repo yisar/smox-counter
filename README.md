@@ -9,5 +9,5 @@ yarn start
 
 ### About me
 
-* QQ: 1533540012
+* blog: [伊撒尔の窝](https://www.yisaer.com)
 * weibo: [@世界倒数第一公主殿下](http://weibo.com/oreshura)
