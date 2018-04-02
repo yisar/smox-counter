@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 import { connect } from 'smox'
-import { add, cut } from './smox/reducer'
+import { add, cut } from '../store/reducer'
 
 @connect(state => ({ num: state }), { add, cut })
 class Counter extends React.Component {

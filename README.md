@@ -1,5 +1,5 @@
 # smox-counter
->A redux-like state management which based on New context api
+>A example for smox (a redux-like state management based on New context api)
 
 ## Run
 ```shell

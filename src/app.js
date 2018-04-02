@@ -1,6 +1,5 @@
 import React from 'react'
-import './style.css'
-import Counter from './counter'
+import Counter from './component/counter'
 
 class App extends React.Component {
   render() {
