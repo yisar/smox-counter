@@ -1,9 +1,9 @@
 import React from 'react'
 import './style.css'
 import { connect } from 'smox'
-import { add, cut } from '../store/reducer'
+import { add, cut ,async,twice} from '../store/reducer'
 
-@connect(state => ({ num: state }), { add, cut })
+@connect(state => ({ num: state }), { add, cut ,async,twice})
 class Counter extends React.Component {
   constructor(props) {
     super(props)
@@ -27,7 +27,8 @@ class Counter extends React.Component {
         </p>
         <button onClick={this.props.add}>增加</button>
         <button onClick={this.props.cut}>减少</button>
-        <button onClick={this.change.bind(this)}>变色</button>
+        <button onClick={this.props.async}>延时</button>
+        <button onClick={this.props.twice}>加二延时</button>
       </div>
     )
   }

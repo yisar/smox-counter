@@ -16,3 +16,19 @@ export function add() {
 export function cut() {
   return {type: 'cut'}
 }
+
+// 支持多次
+
+export function twice(){
+  return [{ type: 'add' },async()]
+}
+
+// 异步
+export function async(){
+  return dispatch => {
+    setTimeout(() => {
+      dispatch(add());
+    }, 2000);
+  };
+
+}

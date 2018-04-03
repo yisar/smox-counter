@@ -3584,11 +3584,9 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/slash/download/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
-smox@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/smox/-/smox-0.0.2.tgz#63928cacc72233accad4b6b4281279bbd4b6fccb"
-  dependencies:
-    react "^16.3.0"
+smox@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/smox/-/smox-1.0.2.tgz#8b4544716f490f5b42d96e364777eea5428a64ca"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
