@@ -27,6 +27,6 @@
   "dependencies": {
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
-    "smox": "^1.0.3"
+    "smox": "^1.1.2"
   }
 }
