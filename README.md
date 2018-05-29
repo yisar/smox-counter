@@ -7,6 +7,16 @@ yarn install
 yarn start
 ```
 
+## 推荐目录结构
+```
+├── index.js #入口
+├── store #smox相关
+    ├── index 
+    ├── state
+    ├── mutation
+    ├── actions
+```
+
 ### About me
 
 * blog: [伊撒尔の窝](https://www.yisaer.com)
