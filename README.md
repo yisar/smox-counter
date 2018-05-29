@@ -1,20 +1,24 @@
 # smox-counter
->A example for smox (a redux-like state management based on New context api)
+
+> A example for smox (a redux-like state management based on New context api)
 
 ## Run
+
 ```shell
 yarn install
 yarn start
 ```
 
 ## 推荐目录结构
+
 ```
-├── index.js #入口
-├── store #smox相关
-    ├── index 
-    ├── state
-    ├── mutation
+├── ...
+├── store
     ├── actions
+    ├── index
+    ├── mutation
+    ├── state
+├── ...
 ```
 
 ### About me
