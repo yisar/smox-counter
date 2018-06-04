@@ -1,17 +1,21 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install smox -S
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add babel-preset-env -S
 
 PATH: 
-  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\admin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Go\bin;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\nodejs;D:\Program Files\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\admin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Go\bin;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;D:\Program Files\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Yarn\bin
 
 Yarn version: 
-  1.5.1
+  1.7.0
 
 Node version: 
-  10.2.0
+  9.10.0
 
 Platform: 
   win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.18.97.96:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1173:14)
 
 npm manifest: 
   {
@@ -43,7 +47,7 @@ npm manifest:
     "dependencies": {
       "react": "^16.3.0",
       "react-dom": "^16.3.0",
-      "smox": "^1.0.3"
+      "smox": "^1.1.5"
     }
   }
 
@@ -3637,9 +3641,9 @@ Lockfile:
     version "1.0.0"
     resolved "http://registry.npm.taobao.org/slash/download/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
   
-  smox@^1.0.3:
-    version "1.0.3"
-    resolved "https://registry.yarnpkg.com/smox/-/smox-1.0.3.tgz#db13ca429f91dbf4e30dc82cc672804906a04cb2"
+  smox@^1.1.5:
+    version "1.1.5"
+    resolved "https://registry.yarnpkg.com/smox/-/smox-1.1.5.tgz#6b4e6858ce3e6a8277d279eb47a5d4cf62a72778"
   
   snapdragon-node@^2.0.1:
     version "2.1.1"
@@ -4169,11 +4173,3 @@ Lockfile:
   xtend@^4.0.0, xtend@~4.0.1:
     version "4.0.1"
     resolved "http://registry.npm.taobao.org/xtend/download/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
-
-Trace: 
-  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add smox" instead.
-      at new MessageError (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
-      at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:21987:13)
-      at Generator.next (<anonymous>)
-      at step (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
-      at C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
