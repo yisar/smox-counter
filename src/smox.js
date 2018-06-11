@@ -1,7 +1,7 @@
 import React from 'react'
 const Context = React.createContext(null)
 
-class Container {
+export class Container {
   constructor(state = {}) {
     this.state = state
     this.subscribers = []
@@ -15,9 +15,17 @@ class Container {
   }
 }
 
-class Subscribe extends React.Component {
+export class Subscribe extends React.Component {
   constructor(props) {
     super(props)
+  }
+
+  createInstances(map, containers) {
+    let instancees = containers.map((Container) => {
+      let newInstance = new Container()
+      map.set(Container, newInstance)
+      return newInstance
+    })
   }
   render() {
     return (
