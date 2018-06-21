@@ -1,10 +1,10 @@
 import React from 'react'
 import './style.css'
-import { withStore } from 'smox'
+import { connect } from '../smox/index'
 
-@withStore
+@connect(['count'], ['add', 'cut'], ['asyncAdd'])
+
 class Counter extends React.Component {
-
   render() {
     return (
       <div className="counter">

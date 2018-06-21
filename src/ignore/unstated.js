@@ -1,6 +1,7 @@
 import React from 'react'
+import createReactContext from 'create-react-context'
 
-const Context = React.createContext(null)
+const Context = createReactContext()
 let ListenerID = 0
 
 export class Controller {
@@ -15,6 +16,7 @@ export class Controller {
     if (!this.map.get(id)) {
       this.map.set(id, true)
       this.setFaterState.push({ fn: setState, id: id })
+      console.log(this.setFaterState)
     }
   }
 
