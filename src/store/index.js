@@ -1,4 +1,4 @@
-import { Store } from '../smox/index'
+import { Store } from '../smox/store'
 import state from './state'
 import mutations from './mutations'
 import actions from './actions'
