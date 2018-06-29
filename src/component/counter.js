@@ -1,10 +1,15 @@
 import React from 'react'
 import './style.css'
-import { connect } from '../smox/index'
+import { map } from '../smox/index'
 
-@connect(['count'], ['add', 'cut'], ['asyncAdd'])
+@map({ 
+  state: ['count/count'], 
+  mutations: ['count/add', 'count/cut'], 
+  actions: ['count/asyncAdd'] 
+})
 
 class Counter extends React.Component {
+  
   render() {
     return (
       <div className="counter">

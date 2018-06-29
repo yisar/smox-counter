@@ -1,7 +1,7 @@
 export default{
   asyncAdd({ commit }) {
     setTimeout(() => {
-      commit('add')
+      commit('count/add')
     }, 1000)
   }
 }
