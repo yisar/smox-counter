@@ -3,14 +3,15 @@ import './style.css'
 import { map } from '../smox/index'
 
 @map({ 
-  state: ['count/count'], 
-  mutations: ['count/add', 'count/cut'], 
-  actions: ['count/asyncAdd'] 
+  state: ['count'], 
+  mutations: ['add', 'cut'], 
+  actions: ['asyncAdd'] 
 })
 
 class Counter extends React.Component {
   
   render() {
+    // console.log(this.props)
     return (
       <div className="counter">
         <p>
