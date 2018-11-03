@@ -1,4 +1,3 @@
 export default {
-  count: 1,
-  sex: 'boy'
+  count: 1
 }

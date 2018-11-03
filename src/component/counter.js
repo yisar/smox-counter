@@ -9,9 +9,12 @@ import { map } from '../smox/index'
 })
 
 class Counter extends React.Component {
+
+  componentDidMount(){
+    console.log(this.props)
+  }
   
   render() {
-    // console.log(this.props)
     return (
       <div className="counter">
         <p>
